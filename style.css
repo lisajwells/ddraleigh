@@ -39,23 +39,76 @@ font-family: 'Lato', sans-serif;
 
 .map-entry {
   position: relative;
+}
 
+.circle {
+  border-radius: 50%;
+}
+
+.whitaker .map-numb {
+  background-color:  #bce7fa;
+}
+
+.map-numb {
+    position: absolute;
+    top: 0;
+}
+
+.triangle {
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+    border-bottom: 26px solid #bce7fa;
+    height: 0;
+    width: 0;
+    -webkit-transform:rotate(360deg); /*to combat alias*/
+       -moz-transform:rotate(360deg);
+        -ms-transform:rotate(360deg);
+         -o-transform:rotate(360deg);
+            transform:rotate(360deg);
+}
+
+.circle,
+.square {
+  height: 28px;
+  width: 28px;
+  left: 1px;
+}
+
+.square {
+  height: 26px;
+  width: 26px;
+  left: 2px;
+}
+
+.triangle p,
+.circle p,
+.square p {
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    width: 16px;
+}
+
+.triangle p {
+    top: 7px;
+    left: -8px;
+}
+
+.circle p {
+    top: 3px;
+    left: 6px;
+}
+
+.square p {
+    top: 2px;
+    left: 5px;
 }
 
 .map-entry .map-bus-text {
   margin-bottom: 0;
   padding-left: 38px;
-}
-
-.map-numb {
-  display: inline-block;
-  float: left;
-  font-size: 11px;
-  font-weight: 700;
-  height: 20px;
-  margin-right: 6px;
-  text-align: center;
-  width: 20px;
 }
 
 .map-bus-name {
@@ -68,35 +121,4 @@ font-family: 'Lato', sans-serif;
   padding-left: 38px;
 }
 
-.whitaker {
-  background-color:  #bce7fa;
-}
 
-.circle {
-  border-radius: 50%;
-}
-
-.triangle {
-    border-left: 15px solid #fff;
-    border-right: 15px solid #fff;
-    border-bottom: 26px solid #bce7fa;
-    height: 0;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 0;
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
-}
-
-.triangle p {
-    text-align: center;
-    top: 7px;
-    left: -7px;
-    position: relative;
-    margin: 0px;
-    width: 15px;
-}
