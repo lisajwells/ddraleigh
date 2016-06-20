@@ -26,5 +26,41 @@ FivePoints Pink: #fabcc9;
 Seaboard Tan: #dabd9d;
 Capital LemonChiffon: #fdeaa5;
 Whitaker LightSkyBlue: #bce7fa;
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700,300italic);
+font-family: 'Lato', sans-serif;
+
 */
 
+.page-id-30 .post-entry,
+.page-id-30 .post-entry p {
+  font-family: 'Lato', sans-serif;
+}
+
+.map-entry p:first-of-type {
+  margin-bottom: 0;
+}
+
+.map-numb {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  font-weight: 700;
+  height: 20px;
+  margin-right: 6px;
+  text-align: center;
+  width: 20px;
+}
+
+.map-bus-name {
+  font-weight: 700;
+}
+
+.map-bus-info {
+  font-style: italic;
+  margin-top: 0;
+}
+
+.whitaker {
+  background-color:  #bce7fa;
+}
