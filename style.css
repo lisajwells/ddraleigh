@@ -32,32 +32,53 @@ font-family: 'Lato', sans-serif;
 
 */
 
-.page-id-30 .entry-title {
+a.mapbutton {
+  background-color: #FF00FE;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0 20px 34px 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+a.mapbutton:hover {
+  background-color: #FFA626;
+}
+
+.page-id-30 .entry-title,
+.page-id-511 .entry-title {
   display:none;
 }
 
-.page-id-30 .alignnone {
+.page-id-30 .alignnone,
+.page-id-511 .alignnone {
   margin: 0;
   width: 100%;
 }
 
-
 .page-id-30 .post-entry,
-.page-id-30 .post-entry p {
+.page-id-30 .post-entry p,
+.page-id-511 .post-entry,
+.page-id-511 .post-entry p {
   font-family: 'Lato', sans-serif;
 }
 
-.page-id-30 h5 {
+.page-id-30 h5,
+.page-id-511 h5 {
     width: auto;
     padding: 6px 8px;
     display: inline-block;
 }
 
-.page-id-30 .column {
+.page-id-30 .column,
+.page-id-511 .column {
   width: 48%;
 }
 
-.page-id-30 .column .left {
+.page-id-30 .column .left,
+.page-id-511 .column .left {
   float: left;
 }
 
@@ -171,6 +192,7 @@ font-family: 'Lato', sans-serif;
 
 .map-entry .map-bus-text {
   margin-bottom: 0;
+  margin-top: 1.2em;
   padding-left: 38px;
 }
 
@@ -182,8 +204,4 @@ font-family: 'Lato', sans-serif;
   font-style: italic;
   margin-top: 0;
   padding-left: 38px;
-}
-
-.map-footer:before {
-  clear: both;
 }
