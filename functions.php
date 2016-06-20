@@ -14,3 +14,12 @@ function ddraleigh_enqueue_scripts_styles() {
 
 
 }
+
+function remove_wpautop(){
+   $pages = array(30);
+   if (is_page($pages)){
+      remove_filter('the_content', 'wpautop');
+   }
+}
+
+add_action('wp_head', 'remove_wpautop');

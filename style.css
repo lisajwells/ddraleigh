@@ -45,10 +45,6 @@ font-family: 'Lato', sans-serif;
   border-radius: 50%;
 }
 
-.whitaker .map-numb {
-  background-color:  #bce7fa;
-}
-
 .map-numb {
     position: absolute;
     top: 0;
@@ -57,7 +53,6 @@ font-family: 'Lato', sans-serif;
 .triangle {
     border-left: 15px solid #fff;
     border-right: 15px solid #fff;
-    border-bottom: 26px solid #bce7fa;
     height: 0;
     width: 0;
     -webkit-transform:rotate(360deg); /*to combat alias*/
@@ -67,17 +62,31 @@ font-family: 'Lato', sans-serif;
             transform:rotate(360deg);
 }
 
-.circle,
-.square {
-  height: 28px;
-  width: 28px;
-  left: 1px;
+.whitaker .map-numb {
+  background-color:  #bce7fa;
+}
+.whitaker .triangle {
+    border-bottom: 26px solid #bce7fa;
 }
 
+.capital .map-numb {
+  background-color:  #fdeaa5;
+}
+.capital .triangle {
+    border-bottom: 26px solid #fdeaa5;
+}
+
+.circle,
 .square {
   height: 26px;
   width: 26px;
   left: 2px;
+}
+
+.square {
+  height: 24px;
+  width: 24px;
+  left: 3px;
 }
 
 .triangle p,
@@ -97,13 +106,13 @@ font-family: 'Lato', sans-serif;
 }
 
 .circle p {
-    top: 3px;
-    left: 6px;
+    top: 2px;
+    left: 5px;
 }
 
 .square p {
     top: 2px;
-    left: 5px;
+    left: 4px;
 }
 
 .map-entry .map-bus-text {
