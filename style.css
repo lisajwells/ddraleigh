@@ -42,9 +42,9 @@ font-family: 'Lato', sans-serif;
 
 }
 
-.map-entry p:first-of-type {
+.map-entry .map-bus-text {
   margin-bottom: 0;
-  padding-left: 26px;
+  padding-left: 38px;
 }
 
 .map-numb {
@@ -65,7 +65,7 @@ font-family: 'Lato', sans-serif;
 .map-bus-info {
   font-style: italic;
   margin-top: 0;
-  padding-left: 26px;
+  padding-left: 38px;
 }
 
 .whitaker {
@@ -94,10 +94,9 @@ font-family: 'Lato', sans-serif;
 
 .triangle p {
     text-align: center;
-    top: 0;
-    left: 0;
+    top: 7px;
+    left: -7px;
     position: relative;
-/*    width: 93px;
-    height: 93px;
-*/    margin: 0px;
+    margin: 0px;
+    width: 15px;
 }
