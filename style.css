@@ -47,6 +47,10 @@ font-family: 'Lato', sans-serif;
   width: 48%;
 }
 
+.page-id-30 .column .left {
+  float: left;
+}
+
 .map-entry {
   position: relative;
 }
@@ -94,6 +98,22 @@ font-family: 'Lato', sans-serif;
 }
 .capital .triangle {
     border-bottom: 26px solid #fdeaa5;
+}
+
+.seaboard .map-numb,
+.seaboard h5 {
+  background-color:  #dabd9d;
+}
+.seaboard .triangle {
+    border-bottom: 26px solid #dabd9d;
+}
+
+.cameron .map-numb,
+.cameron h5 {
+  background-color:  #c4c0db;
+}
+.cameron .triangle {
+    border-bottom: 26px solid #c4c0db;
 }
 
 .circle,
