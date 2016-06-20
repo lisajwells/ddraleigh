@@ -32,6 +32,16 @@ font-family: 'Lato', sans-serif;
 
 */
 
+.page-id-30 .entry-title {
+  display:none;
+}
+
+.page-id-30 .alignnone {
+  margin: 0;
+  width: 100%;
+}
+
+
 .page-id-30 .post-entry,
 .page-id-30 .post-entry p {
   font-family: 'Lato', sans-serif;
