@@ -65,6 +65,10 @@ font-family: 'Lato', sans-serif;
   position: relative;
 }
 
+.map-entry:hover {
+  opacity: .7;
+}
+
 .circle {
   border-radius: 50%;
 }
@@ -180,4 +184,6 @@ font-family: 'Lato', sans-serif;
   padding-left: 38px;
 }
 
-
+.map-footer:before {
+  clear: both;
+}
