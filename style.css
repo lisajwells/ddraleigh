@@ -66,3 +66,11 @@ font-family: 'Lato', sans-serif;
 .whitaker {
   background-color:  #bce7fa;
 }
+
+.circle {
+  border-radius: 50%;
+}
+
+.triangle {
+
+}
