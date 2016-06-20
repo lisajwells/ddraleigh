@@ -15,6 +15,7 @@ function ddraleigh_enqueue_scripts_styles() {
 
 }
 
+// Make WP stop re-formatting map page
 function remove_wpautop(){
    $pages = array(30);
    if (is_page($pages)){

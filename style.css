@@ -37,6 +37,16 @@ font-family: 'Lato', sans-serif;
   font-family: 'Lato', sans-serif;
 }
 
+.page-id-30 h5 {
+    width: auto;
+    padding: 6px 8px;
+    display: inline-block;
+}
+
+.page-id-30 .column {
+  width: 48%;
+}
+
 .map-entry {
   position: relative;
 }
@@ -62,14 +72,24 @@ font-family: 'Lato', sans-serif;
             transform:rotate(360deg);
 }
 
-.whitaker .map-numb {
+.fivepoints .map-numb,
+.fivepoints h5 {
+  background-color:  #fabcc9;
+}
+.fivepoints .triangle {
+    border-bottom: 26px solid #fabcc9;
+}
+
+.whitaker .map-numb,
+.whitaker h5 {
   background-color:  #bce7fa;
 }
 .whitaker .triangle {
     border-bottom: 26px solid #bce7fa;
 }
 
-.capital .map-numb {
+.capital .map-numb,
+.capital h5 {
   background-color:  #fdeaa5;
 }
 .capital .triangle {
