@@ -39,6 +39,7 @@ font-family: 'Lato', sans-serif;
 
 .map-entry p:first-of-type {
   margin-bottom: 0;
+  padding-left: 26px;
 }
 
 .map-numb {
@@ -59,6 +60,7 @@ font-family: 'Lato', sans-serif;
 .map-bus-info {
   font-style: italic;
   margin-top: 0;
+  padding-left: 26px;
 }
 
 .whitaker {
