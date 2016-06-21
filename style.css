@@ -151,6 +151,14 @@ a.mapbutton:hover {
     border-bottom: 26px solid #c4c0db;
 }
 
+.glenwood .map-numb,
+.glenwood h5 {
+  background-color:  #d5de21;
+}
+.glenwood .triangle {
+    border-bottom: 26px solid #d5de21;
+}
+
 .circle,
 .square {
   height: 26px;
