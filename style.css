@@ -249,9 +249,9 @@ a.mapbutton:hover {
 /*---- GALLERY PAGE page-id-34 ----*/
 
 .gallery-group {
-  width: 48%;
+  width: 47%;
   float: left;
-  margin: 0 4% 0 0;
+  margin: 0 6% 0 0;
 }
 
 .gallery-group:nth-of-type(2n) {
@@ -260,7 +260,7 @@ a.mapbutton:hover {
 
 .gallery-cap {
     font-weight: 700;
-    margin: 0 4px 20px;
+    margin: 0 4px 30px;
     text-align: center;
 }
 
