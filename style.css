@@ -14,7 +14,7 @@ Orange: #FFA626;
 GreenYellow: #CCFF00;
 Cyan: #01FFFF;
 
-from Map:
+from Maps:
 Glenwood GreenYellow: #d5de21;
 Warehouse Orange: #ffc426;
 Fayetteville LightBlue: #a0cecb;
@@ -29,8 +29,9 @@ Whitaker LightSkyBlue: #bce7fa;
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700,300italic);
 font-family: 'Lato', sans-serif;
-
 */
+
+/*---- MAP PAGES ----*/
 
 .mapbuttons {
   text-align: center;
@@ -244,6 +245,26 @@ a.mapbutton:hover {
   margin-top: 0;
   padding-left: 38px;
 }
+
+/*---- GALLERY PAGE page-id-34 ----*/
+
+.gallery-group {
+  width: 48%;
+  float: left;
+  margin: 0 4% 0 0;
+}
+
+.gallery-group:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.gallery-cap {
+    font-weight: 700;
+    margin: 0 4px 20px;
+    text-align: center;
+}
+
+/*---- MEDIA QUERIES ----*/
 
 @media only screen and (max-width: 600px) {
 
