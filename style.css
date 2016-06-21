@@ -244,3 +244,20 @@ a.mapbutton:hover {
   margin-top: 0;
   padding-left: 38px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .page-id-30 .column, .page-id-485 .column {
+    width: 100%;
+    float: none;
+  }
+
+  a.mapbutton {
+    margin: 0 auto 16px;
+    display: table;
+  }
+
+  .mapbuttons a.mapbutton:first-child {
+    margin: 0 auto 16px;
+  }
+}
