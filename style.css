@@ -47,31 +47,38 @@ a.mapbutton:hover {
   background-color: #FFA626;
 }
 
-.page-id-30 .entry-title {
+.page-id-30 .entry-title,
+.page-id-485 .entry-title {
   display:none;
 }
 
-.page-id-30 .alignnone {
+.page-id-30 .alignnone,
+.page-id-485 .alignnone {
   margin: 0;
   width: 100%;
 }
 
 .page-id-30 .post-entry,
-.page-id-30 .post-entry p {
+.page-id-30 .post-entry p,
+.page-id-485 .post-entry,
+.page-id-485 .post-entry p {
   font-family: 'Lato', sans-serif;
 }
 
-.page-id-30 h5 {
+.page-id-30 h5,
+.page-id-485 h5 {
     width: auto;
     padding: 6px 8px;
     display: inline-block;
 }
 
-.page-id-30 .column {
+.page-id-30 .column,
+.page-id-485 .column {
   width: 48%;
 }
 
-.page-id-30 .column .left {
+.page-id-30 .column .left,
+.page-id-485 .column .left {
   float: left;
 }
 
