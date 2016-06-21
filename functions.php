@@ -15,9 +15,9 @@ function ddraleigh_enqueue_scripts_styles() {
 
 }
 
-// Make WP stop re-formatting map page
+// Make WP stop re-formatting map pages and gallery page
 function remove_wpautop(){
-   $pages = array(30, 485);
+   $pages = array(30, 485, 34);
    if (is_page($pages)){
       remove_filter('the_content', 'wpautop');
    }
