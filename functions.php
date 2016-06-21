@@ -17,7 +17,7 @@ function ddraleigh_enqueue_scripts_styles() {
 
 // Make WP stop re-formatting map page
 function remove_wpautop(){
-   $pages = array(30);
+   $pages = array(30, 485);
    if (is_page($pages)){
       remove_filter('the_content', 'wpautop');
    }
