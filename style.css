@@ -32,15 +32,22 @@ font-family: 'Lato', sans-serif;
 
 */
 
+.mapbuttons {
+  text-align: center;
+}
+
 a.mapbutton {
   background-color: #FF00FE;
   color: #fff;
   display: inline-block;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  margin: 0 20px 34px 0;
+  margin: 0 0 34px 0;
   padding: 10px 20px;
-  text-transform: uppercase;
+}
+
+.mapbuttons a.mapbutton:first-child {
+  margin-right: 20px;
 }
 
 a.mapbutton:hover {
@@ -157,6 +164,30 @@ a.mapbutton:hover {
 }
 .glenwood .triangle {
     border-bottom: 26px solid #d5de21;
+}
+
+.warehouse .map-numb,
+.warehouse h5 {
+  background-color:  #ffc426;
+}
+.warehouse .triangle {
+    border-bottom: 26px solid #ffc426;
+}
+
+.fayetteville .map-numb,
+.fayetteville h5 {
+  background-color:  #a0cecb;
+}
+.fayetteville .triangle {
+    border-bottom: 26px solid #a0cecb;
+}
+
+.moore .map-numb,
+.moore h5 {
+  background-color:  #fab69f;
+}
+.moore .triangle {
+    border-bottom: 26px solid #fab69f;
 }
 
 .circle,
