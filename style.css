@@ -285,7 +285,7 @@ a.mapbutton:hover {
     text-align: center;
 }
 
-img.new-collage { /* to defeat the lack of border on the images */
+img.borderless-collage { /* to defeat the lack of border on the images */
     box-sizing: border-box;
     border: 4px solid white;
 }
