@@ -85,10 +85,20 @@ a.mapbutton:hover {
   text-align: center;
 }
 
+.mapkey ul {
+  list-style-type: none;
+  margin: 0 0 1.5em 0;
+  padding-left: 0;
+}
+
 .mapkey li {
   display: inline-block;
   position: relative;
   margin-right: 4em;
+}
+
+.mapkey li:last-of-type {
+  margin-right: 0;
 }
 
 .mapkey .map-numb {
