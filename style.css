@@ -27,6 +27,8 @@ Seaboard Tan: #dabd9d;
 Capital LemonChiffon: #fdeaa5;
 Whitaker LightSkyBlue: #bce7fa;
 
+Gray Areas: #D2D1D6;
+
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700,300italic);
 font-family: 'Lato', sans-serif;
 */
@@ -74,6 +76,29 @@ a.mapbutton {
 
 a.mapbutton:hover {
   background-color: #FFA626;
+}
+
+.mapkey {
+  color: #a5a4a8;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.mapkey li {
+  display: inline-block;
+  position: relative;
+  margin-right: 4em;
+}
+
+.mapkey .map-numb {
+  background-color: #D2D1D6;
+  left: -34px;
+}
+
+
+.mapkey .triangle {
+    border-bottom: 26px solid #D2D1D6;
 }
 
 .page-id-30 .entry-title,
