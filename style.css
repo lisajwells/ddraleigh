@@ -94,11 +94,13 @@ a.mapbutton:hover {
 .mapkey .map-numb {
   background-color: #D2D1D6;
   left: -34px;
+  margin-top: -3px;
 }
 
 
 .mapkey .triangle {
     border-bottom: 26px solid #D2D1D6;
+    margin-top: -5px;
 }
 
 .page-id-30 .entry-title,
