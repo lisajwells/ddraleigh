@@ -292,6 +292,18 @@ img.borderless-collage { /* to defeat the lack of border on the images */
 
 /*---- MEDIA QUERIES ----*/
 
+@media only screen and (max-width: 700px) {
+
+  .gallery-group,
+  .gallery-group:nth-of-type(2n) {
+    float: none;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}
+
 @media only screen and (max-width: 600px) {
 
   .page-id-30 .column, .page-id-485 .column {
@@ -307,4 +319,5 @@ img.borderless-collage { /* to defeat the lack of border on the images */
   .mapbuttons a.mapbutton:first-child {
     margin: 0 auto 16px;
   }
+
 }
